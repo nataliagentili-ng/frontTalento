@@ -13,7 +13,7 @@
 body {
     width: 100%;
     font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
-    font-size: 2rem;
+    font-size: 1.6rem;
     background-color: #f2f2f2;
     color: #0e0f0f;
 }
@@ -47,14 +47,12 @@ nav ul {
     justify-content: space-around;
     list-style: none;
     padding: 10px 2%;
-
 }
 
 a {
     font-weight: 700;
     color: #0e0f0f;
     text-decoration: none;
-    /*  padding: 0px 100px;*/
 }
 
 main {
@@ -62,17 +60,16 @@ main {
     flex: 1;
     /*para que ocupe todo el espacio disponible, el footer y el head van a usar lo mínimo*/
     flex-direction: column;
-
 }
 
 h2 {
-    font-size: 2.3rem;
-    margin: 2%;
+    font-size: 1.6rem;
+    margin:1% 2%;
     text-align: center;
 }
 
 .descripcion {
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-style: italic;
     text-align: center;
     padding: 2%;
@@ -109,14 +106,14 @@ h2 {
 }
 
 .tarjeta h3 {
-    font-size: 22px;
+    font-size: 20px;
     margin: 15px 0 10px;
 
 }
 
 .tarjeta p {
     padding-left: 10px;
-    font-size: 20px;
+    font-size: 18px;
     line-height: 1.5;
     margin: 0 0 12px;
     text-align: start;
@@ -246,7 +243,10 @@ form textarea {
     form textarea {
         font-size: 1.1rem;
     }
-
+.marca{
+        width: 100%;
+        padding: 0 5%;
+    }
     p {
         font-size: 1.1rem;
     }
@@ -262,10 +262,16 @@ form textarea {
     .tarjeta p {
         font-size: 1.1rem;
     }
-
+.tarjeta img {
+        height: 10rem;
+        WIDTH: 50%;
+    }
     .footer1 {
         padding: 0 16px;
         width: 10%;
+    }
+    .footer1 p{
+        font-size: 1.1rem;
     }
 
     i {
@@ -278,8 +284,6 @@ form textarea {
         margin: 20px 10%;
     }
 
-    .tarjeta img {
-        height: 10rem;
-        WIDTH: 50%;
-    }
+    
+    
 }
