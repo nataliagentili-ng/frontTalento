@@ -1,0 +1,285 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /*para saber que tamaño tiene el elemento y no se me desordene la pagina*/
+    /*tiene en cuenta el padding y el border*/
+}
+
+| html {
+    font-size: 62.5%;
+}
+
+body {
+    width: 100%;
+    font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+    font-size: 2rem;
+    background-color: #f2f2f2;
+    color: #0e0f0f;
+}
+
+.header {
+    display: flex;
+    padding: 10px 5%;
+}
+
+.img {
+    margin: 50px;
+    width: 110px;
+
+}
+
+.marca {
+    display: flex;
+    width: 80%;
+    align-items: center;
+    padding: 0 5%;
+}
+
+nav {
+    width: 100%;
+    background-color: #FC7ECA;
+}
+
+nav ul {
+    display: flex;
+    gap: 3rem;
+    justify-content: space-around;
+    list-style: none;
+    padding: 10px 2%;
+
+}
+
+a {
+    font-weight: 700;
+    color: #0e0f0f;
+    text-decoration: none;
+    /*  padding: 0px 100px;*/
+}
+
+main {
+    margin: 2% 0;
+    flex: 1;
+    /*para que ocupe todo el espacio disponible, el footer y el head van a usar lo mínimo*/
+    flex-direction: column;
+
+}
+
+h2 {
+    font-size: 2.3rem;
+    margin: 2%;
+    text-align: center;
+}
+
+.descripcion {
+    font-size: 2rem;
+    font-style: italic;
+    text-align: center;
+    padding: 2%;
+}
+
+.principal {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+
+.tarjeta {
+    width: 300px;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 15px 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+    box-sizing: border-box;
+    margin: 0 10px;
+    border: 1px solid #1a817f;
+    text-align: center;
+}
+
+.tarjeta img {
+    width: 80%;
+    height: 20rem;
+    object-fit: cover;
+    padding-bottom: 10px;
+    border-radius: 8px;
+
+}
+
+.tarjeta h3 {
+    font-size: 22px;
+    margin: 15px 0 10px;
+
+}
+
+.tarjeta p {
+    padding-left: 10px;
+    font-size: 20px;
+    line-height: 1.5;
+    margin: 0 0 12px;
+    text-align: start;
+}
+
+.tarjeta .precio {
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: CENTER;
+    margin-bottom: 15px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    border-radius: 15px;
+    margin: 10px 0;
+    border: none;
+    background-color: #1a817f;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+a:hover {
+    color: #1a817f;
+}
+
+button:hover {
+    background-color: #0fc2c0;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #FC7ECA;
+}
+
+.footer1 {
+    padding: 50px;
+    WIDTH: 20%;
+    color: #0e0f0f;
+    flex-wrap: wrap;
+}
+
+.footer2 {
+    flex: 1;
+    padding: 30px 0;
+    JUSTIFY-CONTENT: CENTER;
+}
+
+FOOTER P {
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+i {
+    font-size: 3rem;
+}
+
+/* Estilos para la sección de contacto */
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+
+}
+
+.formulario {
+    width: 600px;
+    background-color: #fff;
+    border-radius: 20px;
+    justify-content: center;
+    padding: 25px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+    /*  box-sizing: border-box;*/
+    margin: 20px 25%;
+    border: 1px solid #1a817f;
+    text-align: left;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+form label {
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 2rem;
+}
+
+@media (max-width: 600px) {
+    body {
+        font-size: 1.6rem;
+    }
+
+    h1 {
+        font-size: 1.6rem;
+    }
+
+    h2 {
+        font-size: 1.3rem;
+    }
+
+    nav ul {
+        text-align: center;
+        gap: 0.8rem;
+    }
+
+    nav,
+    form label,
+    form input,
+    form textarea {
+        font-size: 1.1rem;
+    }
+
+    p {
+        font-size: 1.1rem;
+    }
+
+    .img {
+        display: none;
+    }
+
+    nav ul {
+        flex-direction: column;
+    }
+
+    .tarjeta p {
+        font-size: 1.1rem;
+    }
+
+    .footer1 {
+        padding: 0 16px;
+        width: 10%;
+    }
+
+    i {
+        font-size: 2rem;
+    }
+
+    .formulario {
+        width: 80%;
+        min-width: 300px;
+        margin: 20px 10%;
+    }
+
+    .tarjeta img {
+        height: 10rem;
+        WIDTH: 50%;
+    }
+}
