@@ -173,9 +173,10 @@ h2 {
     transition: background-color 0.3s;
 }
 .boton-vaciar {
-    padding: 10px 20px;
+    width: 100%;
+    padding: 10px 30px;
     border-radius: 15px;
-    margin: 10px 10%;
+    margin: 10px 0%;
     border: none;
     background-color: #1a817f;
     color: white;
