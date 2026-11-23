@@ -1,15 +1,17 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/
 all.min.css">
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../CSS/style.css">
     <title>Fragancias de mujer</title>
 </head>
+
 <body>
-      <header>
+    <header>
         <div class="header">
             <a class="logo" href="../index.html"><img class="img" src="../img/perfume.png" alt="logo"></a>
             <div class="marca">
@@ -19,25 +21,41 @@ all.min.css">
         <nav>
             <ul>
                 <li><a href="../index.html">INICIO</a></li>
-                <LI><A href="../pages/contacto.html">CONTACTO</A></LI>
-                <LI><A href="../pages/carrito.html">CARRITO</A></LI>
+                <li><a href="./contacto.html">CONTACTO</a></li>
+                <li><a href="./carrito.html" class="link-carrito">
+                        <i class="fa-solid fa-cart-shopping icono-carrito"></i>
+                        <span id="contador-carrito" class="carrito-icono"></span>
+                    </a></li>
             </ul>
         </nav>
     </header>
-     <footer>
+    <main>
+        <section>
+            <h2>Carrito de compras</h2>
+            <div id="contenedor-carrito" class="contenedor-tarjetas">
+                <!-- Aquí se renderizarán los productos del carrito -->
+            </div>
+            <div id="acciones-carrito" class="acciones-carrito">
+                <!-- Aquí se renderizarán las acciones del carrito (vaciar, finalizar compra) -->
+            </div>
+        </section>
+    </main>
+    <footer>
         <div class="footer1">
-            <i class="fa-brands fa-instagram" ></i>
-          <!-- <i class="fa-brands fa-square-x-twitter" ></i>--> 
-            <i class="fa-brands fa-facebook" ></i>
-            <i class="fa-brands fa-whatsapp" ></i>
+            <i class="fa-brands fa-instagram"></i>
+            <!-- <i class="fa-brands fa-square-x-twitter" ></i>-->
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-whatsapp"></i>
         </div>
         <div class="footer2">
             <h2>Fragancias de mujer</h2>
             <p>© 2026 Arbell. Todos los derechos reservados.</p>
         </div>
         <div class="footer3">
-         <a class="logo" href="../index.html"><img class="img" src="../img/perfume.png" alt="logo"></a>
+            <a class="logo" href="../index.html"><img class="img" src="../img/perfume.png" alt="logo"></a>
         </div>
     </footer>
+    <script src="../js/carrito.js" type="module"></script>
 </body>
+
 </html>

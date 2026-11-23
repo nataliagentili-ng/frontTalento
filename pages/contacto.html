@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/
 all.min.css">
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../CSS/style.css">
     <title>Fragancias de mujer</title>
 </head>
 
@@ -20,9 +20,12 @@ all.min.css">
         </div>
         <nav>
             <ul>
-                <li><a href="../index.html">INICIO</a></li>
-                <LI><A href="../pages/contacto.html">CONTACTO</A></LI>
-                <LI><A href="../pages/carrito.html">CARRITO</A></LI>
+                 <li><a href="../index.html">INICIO</a></li>
+                <li><a href="./contacto.html">CONTACTO</a></li>
+                <li><a href="./carrito.html" class="link-carrito">
+                    <i class="fa-solid fa-cart-shopping icono-carrito"></i>
+                    <span id="contador-carrito" class="carrito-icono"></span>
+                </a></li>
             </ul>
         </nav>
     </header>
@@ -40,7 +43,7 @@ all.min.css">
                     <label>Mensaje:
                         <textarea name="mensaje" required></textarea>
                     </label><br>
-                    <button type="submit">Enviar</button>
+                    <button class="boton-agregar" type="submit">Enviar</button>
                 </form>
             </div>
         </section>
@@ -60,6 +63,7 @@ all.min.css">
                     <a class="logo" href="../index.html"><img class="img" src="../img/perfume.png" alt="logo"></a>
                 </div>
             </footer>
+            <script src="../js/contacto.js" type="module"></script>
 </body>
 
 </html>

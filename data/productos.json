@@ -1,0 +1,74 @@
+[
+    {
+        "id": "1",
+        "nombre": "Butterfly",
+        "foto": "img/butterfly.png",
+        "precio": 26000,
+        "categoria": "oriental",
+        "descripcion": "oriental, floral",
+        "detalle": "Conocida por una deliciosa fragancia ambarada, sutil y femenina, es ideal para ser utilizada tanto de día como de noche."
+    },
+    {
+        "id": "2",
+        "nombre": "Diva Gold",
+        "foto": "img/divaGold.jpeg",
+        "precio": 21900,
+        "categoria": "frutal",
+        "descripcion": "floral, frutal",
+        "detalle": " Diseñado para mujeres que buscan un perfume sofisticado y con carácter, perfecto para ocasiones especiales e inolvidables."
+    
+    },
+    {
+        "id": "3",
+        "nombre": "Diva Heaven",
+        "foto": "img/divaHeaven.jpeg",
+        "precio": 21900,
+        "categoria": "cítrica",
+        "descripcion": "floral, cítrica",
+        "detalle": "Una fragancia sutil y elegante que transforma lo etéreo en sofisticación. Para mujeres capaces de envolver con su brillo todo lo que rodean."
+    },
+    {
+        "id": "4",
+        "nombre": "Intense",
+        "foto": "img/intense.jpeg",
+        "precio": 34900,
+        "categoria": "ambar",
+        "descripcion": "ambar, floral",
+        "detalle": "Elaborado con un exquisito bouquet de notas frutales, florales y ambarinas. Intense define el perfil de una mujer empoderada."
+    },
+    {
+        "id": "5",
+        "nombre": "Love Belle",
+        "foto": "img/loveBelle.jpeg",
+        "precio": 24900,
+        "categoria": "chipre",
+        "descripcion": "floral, chipre",
+        "detalle": "Dulce y romántica con un toque floral y frutal, especial para mujeres que buscan un aroma suave y delicado, que resalte su feminidad."
+    },
+    {
+        "id": "6",
+        "nombre": "Pandora",
+        "foto": "img/pandora.jpeg",
+        "precio": 39900,
+        "categoria": "ambar",
+        "descripcion": "ambar, floral",
+        "detalle": "Sorprendente como una joya líquida que se funde con la piel de la mujerpara desprender su esencia a cada paso."
+    },
+    {
+        "id": "7",
+        "nombre": "Passion",
+        "foto": "img/passion.jpeg",
+        "precio": 24000,
+        "categoria": "oriental",
+        "descripcion": "oriental, floral",
+        "detalle": "Una fragancia intensa y apasionada con notas orientales y florales. Para mujeres que buscan un perfume que transmita fuerza y sensualidad."
+    },
+    {
+        "id": "8",
+        "nombre": "Wild Sexy",
+        "foto": "img/wildSexy.jpeg",
+        "precio": 30000,
+        "categoria": "amaderado",
+        "descripcion": "almizcle, floral, amaderado",
+        "detalle":" Una convinación de almizcle, floral y amaderado para mujeres que buscan un perfume audaz y seductor para la noche."}
+    ]

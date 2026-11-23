@@ -6,14 +6,17 @@
     /*tiene en cuenta el padding y el border*/
 }
 
-| html {
-    font-size: 62.5%;
+html {
+    font-size: 72.5%;
 }
 
 body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
     width: 100%;
     font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
-    font-size: 1.6rem;
+    font-size: 1.8rem;
     background-color: #f2f2f2;
     color: #0e0f0f;
 }
@@ -25,7 +28,7 @@ body {
 
 .img {
     margin: 50px;
-    width: 110px;
+    width: 90px;
 
 }
 
@@ -39,6 +42,7 @@ body {
 nav {
     width: 100%;
     background-color: #FC7ECA;
+
 }
 
 nav ul {
@@ -48,7 +52,36 @@ nav ul {
     list-style: none;
     padding: 10px 2%;
 }
+.fa-cart-shopping {
+    font-size: 18px;
+}
+.link-carrito {
+    position: relative;
+}
 
+.icono-carrito {
+    font-size: 18px;
+}
+
+.carrito-icono {
+    position: absolute;
+    top: -5px;
+    left: 12px;
+
+    background-color: red;
+    color: white;
+
+    font-size: 10px;
+    font-weight: bold;
+
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 a {
     font-weight: 700;
     color: #0e0f0f;
@@ -63,23 +96,23 @@ main {
 }
 
 h2 {
-    font-size: 1.6rem;
+    font-size: 1.8rem;
     margin:1% 2%;
     text-align: center;
 }
 
 .descripcion {
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     font-style: italic;
     text-align: center;
     padding: 2%;
 }
 
-.principal {
+.contenedor-tarjetas {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 20px;
+    gap: 14px;
     margin-top: 20px;
 }
 
@@ -88,7 +121,7 @@ h2 {
     width: 300px;
     background-color: #fff;
     border-radius: 20px;
-    padding: 15px 10px;
+    padding: 10px 14px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
     box-sizing: border-box;
     margin: 0 10px;
@@ -96,9 +129,9 @@ h2 {
     text-align: center;
 }
 
-.tarjeta img {
+.imagen-producto {
     width: 80%;
-    height: 20rem;
+    height: 17rem;
     object-fit: cover;
     padding-bottom: 10px;
     border-radius: 8px;
@@ -113,7 +146,7 @@ h2 {
 
 .tarjeta p {
     padding-left: 10px;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 1.5;
     margin: 0 0 12px;
     text-align: start;
@@ -127,11 +160,22 @@ h2 {
     margin-bottom: 15px;
 }
 
-button {
-    width: 100%;
+.boton-agregar {
+    width: 80%;
     padding: 10px;
     border-radius: 15px;
-    margin: 10px 0;
+    margin: 10px auto;
+    border: none;
+    background-color: #1a817f;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.boton-vaciar {
+    padding: 10px 20px;
+    border-radius: 15px;
+    margin: 10px 10%;
     border: none;
     background-color: #1a817f;
     color: white;
@@ -144,7 +188,7 @@ a:hover {
     color: #1a817f;
 }
 
-button:hover {
+.boton-agregar:hover {
     background-color: #0fc2c0;
 }
 
@@ -166,6 +210,10 @@ footer {
     flex: 1;
     padding: 30px 0;
     JUSTIFY-CONTENT: CENTER;
+}
+.footer2 p {
+    font-size: 1.2rem;
+    text-align: center;
 }
 
 FOOTER P {
@@ -245,7 +293,7 @@ form textarea {
     }
 .marca{
         width: 100%;
-        padding: 0 5%;
+        padding: 5%;
     }
     p {
         font-size: 1.1rem;
@@ -270,8 +318,8 @@ form textarea {
         padding: 0 16px;
         width: 10%;
     }
-    .footer1 p{
-        font-size: 1.1rem;
+    .footer2 p{
+        font-size: 0.8rem;
     }
 
     i {
@@ -283,7 +331,9 @@ form textarea {
         min-width: 300px;
         margin: 20px 10%;
     }
-
+.boton-vaciar{
+        width: 100%;
+    }
     
     
 }
